@@ -1,0 +1,124 @@
+package nc.vo.fosun.dept;
+
+import nc.vo.pub.SuperVO;
+
+public class DeptMappingVO extends SuperVO{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	String pkfieldname = "pk_deptcomp";
+	String tablename = "mid_deptcomp";
+	
+	private String hr_deptcode;
+	private String hr_deptname;
+	private String nc_corpcode;
+	private String nc_corpname;
+	private String nc_deptcode;
+	private String nc_deptname;
+	private String nc_dept_id;
+	private String nc_corp_id;
+	private String hr_deptcode_old;
+	private String hr_deptname_old;
+	public String getHr_deptcode_old() {
+		return hr_deptcode_old;
+	}
+
+	public void setHr_deptcode_old(String hr_deptcode_old) {
+		this.hr_deptcode_old = hr_deptcode_old;
+	}
+
+	public String getHr_deptname_old() {
+		return hr_deptname_old;
+	}
+
+	public void setHr_deptname_old(String hr_deptname_old) {
+		this.hr_deptname_old = hr_deptname_old;
+	}
+
+	public String getHr_deptcode() {
+		return hr_deptcode;
+	}
+
+	public void setHr_deptcode(String hr_deptcode) {
+		this.hr_deptcode = hr_deptcode;
+	}
+
+	public String getHr_deptname() {
+		return hr_deptname;
+	}
+
+	public void setHr_deptname(String hr_deptname) {
+		this.hr_deptname = hr_deptname;
+	}
+
+	public String getNc_corpcode() {
+		return nc_corpcode;
+	}
+
+	public void setNc_corpcode(String nc_corpcode) {
+		this.nc_corpcode = nc_corpcode;
+	}
+
+	public String getNc_corpname() {
+		return nc_corpname;
+	}
+
+	public void setNc_corpname(String nc_corpname) {
+		this.nc_corpname = nc_corpname;
+	}
+
+	public String getNc_deptcode() {
+		return nc_deptcode;
+	}
+
+	public void setNc_deptcode(String nc_deptcode) {
+		this.nc_deptcode = nc_deptcode;
+	}
+
+	public String getNc_deptname() {
+		return nc_deptname;
+	}
+
+	public void setNc_deptname(String nc_deptname) {
+		this.nc_deptname = nc_deptname;
+	}
+
+	@Override
+	public String getPKFieldName() {
+		// TODO Auto-generated method stub
+		return pkfieldname;
+	}
+
+	@Override
+	public String getParentPKFieldName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getTableName() {
+		// TODO Auto-generated method stub
+		return tablename;
+	}
+
+	public String getNc_dept_id() {
+		return nc_dept_id;
+	}
+
+	public void setNc_dept_id(String nc_dept_id) {
+		this.nc_dept_id = nc_dept_id;
+	}
+
+	public String getNc_corp_id() {
+		return nc_corp_id;
+	}
+
+	public void setNc_corp_id(String nc_corp_id) {
+		this.nc_corp_id = nc_corp_id;
+	}
+	
+	
+
+}
